@@ -1,9 +1,9 @@
-name: 'GitHub Action for Firebase'
-author: 'Jeremy Shore'
-description: 'Wraps the firebase-tools CLI to enable common commands.'
+name: "GitHub Action for Firebase"
+author: "Accelery"
+description: "Wraps the firebase-tools CLI to deploy functions"
 branding:
-  icon: 'package'
-  color: 'gray-dark'
+  icon: "package"
+  color: "green"
 runs:
-  using: 'docker'
-  image: 'docker://w9jds/firebase-action:latest'
+  using: "docker"
+  image: "Dockerfile"
