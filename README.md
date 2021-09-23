@@ -21,7 +21,7 @@ jobs:
     - name: Check out code
       uses: actions/checkout@master
     - name: Deploy to Firebase
-      uses: BIGG-Kaymo/deploy-firebase-functions@v1.0.1
+      uses: Accelery/firebase-deploy-functions-action@v2
       env:
         FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
 ```
