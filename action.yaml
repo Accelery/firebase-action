@@ -1,4 +1,4 @@
-name: "GitHub Action for Firebase"
+name: "GitHub Action to deploy Firebase Functions"
 author: "Accelery"
 description: "Wraps the firebase-tools CLI to deploy functions"
 branding:
