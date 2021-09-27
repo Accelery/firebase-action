@@ -1,4 +1,4 @@
-FROM node:10-slim
+FROM node:lts-slim
 
 RUN npm install -g firebase-tools
 
