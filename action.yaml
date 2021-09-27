@@ -2,7 +2,7 @@ name: "GitHub Action to deploy Firebase Functions"
 author: "Accelery"
 description: "Wraps the firebase-tools CLI to deploy functions"
 branding:
-  icon: "codepen"
+  icon: "box"
   color: "yellow"
 runs:
   using: "docker"
