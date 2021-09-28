@@ -1,6 +1,6 @@
 FROM node:lts
 
-RUN npm install -g firebase-tools
+RUN curl -sL https://firebase.tools | bash
 
 COPY entrypoint.sh /usr/local/bin
 ENTRYPOINT ["entrypoint.sh"]
