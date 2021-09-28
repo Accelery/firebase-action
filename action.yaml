@@ -6,4 +6,4 @@ branding:
   color: "yellow"
 runs:
   using: "docker"
-  image: "docker://Accelery/firebase-deploy-functions-action"
+  image: "ghcr.io/accelery/firebase-deploy-functions-action:main"
